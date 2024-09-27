@@ -1,4 +1,5 @@
 import 'package:bloc/bloc.dart';
+import 'package:equatable/equatable.dart';
 import 'package:flutter_weather_app_tdd/domain/entities/weather.dart';
 import 'package:flutter_weather_app_tdd/domain/usecases/get_current_weather.dart';
 import 'package:meta/meta.dart';
