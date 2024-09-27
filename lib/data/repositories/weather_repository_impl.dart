@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:dartz/dartz.dart';
 import 'package:flutter_weather_app_tdd/core/error/failure.dart';
-import 'package:flutter_weather_app_tdd/data/data_sources/remote_data_source.dart';
+import 'package:flutter_weather_app_tdd/data/data_sources/weather_remote_data_source.dart';
 import 'package:flutter_weather_app_tdd/domain/repositories/weather_repository.dart';
 import 'package:flutter_weather_app_tdd/domain/entities/weather.dart';
 
