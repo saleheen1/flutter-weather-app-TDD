@@ -3,12 +3,12 @@ import 'package:flutter_weather_app_tdd/core/error/failure.dart';
 import 'package:flutter_weather_app_tdd/domain/entities/weather.dart';
 import 'package:flutter_weather_app_tdd/domain/repositories/weather_repository.dart';
 
-class GetCurrentWeatherUseCase {
+class GetCurrentWeather {
   final WeatherRepository weatherRepository;
 
-  GetCurrentWeatherUseCase(this.weatherRepository);
+  GetCurrentWeather(this.weatherRepository);
 
-  Future<Either<Failure, Weather>> execute(String cityName) {
+  Future<Either<Failure, Weather>> call(String cityName) {
     return weatherRepository.getCurrentWeather(cityName);
   }
 }
